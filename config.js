@@ -40,7 +40,7 @@ module.exports = {
 
   nodes: [
     {
-        name: "Node #1",
+        name: "local",
         host: "node.raidenbot.xyz",
         password: "pwd",
         port: 5501,
