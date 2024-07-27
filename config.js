@@ -44,8 +44,6 @@ module.exports = {
         host: "node.raidenbot.xyz",
         password: "pwd",
         port: 5501,
-        reconnectTimeout: 5000,
-        reconnectTries: Infinity,
         secure: false
     },
  ]
