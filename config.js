@@ -41,9 +41,9 @@ module.exports = {
   nodes: [
     {
         name: "Node #1",
-        host: "node.raidenbot.xyz:5501",
+        host: "node.raidenbot.xyz",
         password: "pwd",
-        port: 80,
+        port: 5501,
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
         secure: false
