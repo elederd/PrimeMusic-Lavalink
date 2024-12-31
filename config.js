@@ -20,8 +20,8 @@
 */
 
 module.exports = {
-  TOKEN: "",
-  ownerID: ["1004206704994566164", ""], 
+  TOKEN: process.env.TOKEN,
+  ownerID: ["1230436474105888878", ""], 
   setupFilePath: './commands/setup.json',
   commandsDir: './commands',  
   embedColor: "#1db954",
@@ -39,9 +39,9 @@ module.exports = {
   nodes: [
     {
         name: "Server",
-        host: "nodev4.fypmoon.org",
-        port: 1118,
-        password: "fypmoon.org",
+        host: "lava.catfein.com",
+        port: 4000,
+        password: "catfein",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
         secure: false
